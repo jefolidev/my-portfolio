@@ -7,11 +7,11 @@ const MainPage = () => {
     <section className="overflow-x-hidden overflow-y-hidden lg:p-2 lg:gap-5 xl:gap-0 xl:px-[50px]">
       <Title
         classNameBehind={`
-          text-9xl invisible
-          lg:text-8xl lg:right-[250px] lg:visible
+          text-9xl -mt-12
+          lg:text-8xl lg:top-[5px] lg:right-[350px] lg:py-[50px] lg:visible
           xl:right-[255px] mb-12 `}
         classNameFront={`
-          text-5xl left-[460px] 
+          text-4xl left-[22px]  
           lg:text-7xl lg:left-[620px] lg:bottom-[5px]
           xl:left-[640px] xl:bottom-[10px]`}
       >

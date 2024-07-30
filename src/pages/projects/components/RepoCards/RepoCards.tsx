@@ -29,14 +29,14 @@ const RepoCards: React.FC<RepoCardsType> = ({
         <div className="">
           <CardImage path={path} className={imageStyle} />
           <div
-            className={`${divStyle} flex flex-col absolute items-center text-white font-poppins `}
+            className={`${divStyle} flex flex-col absolute items-center  text-white font-poppins `}
           >
-            <p className={titleStyle}> {cardText} </p>
+            <p className={titleStyle}> {cardText}</p>
             <p className={descStyle}> {cardDescription} </p>
           </div>
           <img
             src={seta}
-            className="size-6 absolute top-[390px] left-[360px]"
+            className="size-4 lg:size-6 absolute top-[305px] left-[260px] lg:top-[390px] lg:left-[360px]"
           />
         </div>
         <div className="w-full h-full flex flex-col justify-center items-center bg-[#1c1c4b] rounded-3xl [transform:rotateY(180deg)] [backface-visibility:hidden] gap-5">
@@ -46,7 +46,7 @@ const RepoCards: React.FC<RepoCardsType> = ({
           </a>
           <img
             src={seta}
-            className="size-6 absolute top-[390px] left-[360px] rotate-180"
+            className="size-6 absolute top-[280px] left-[260px] lg:top-[390px] lg:left-[360px] rotate-180"
           />
         </div>
       </div>

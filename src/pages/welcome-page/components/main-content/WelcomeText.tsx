@@ -32,7 +32,7 @@ const WelcomeText = () => {
           </span>
         </div>
       </div>
-      <div className="flex flex-col gap-5 mt-[30px] xl:flex xl:flex-row">
+      <div className="flex flex-col items-center gap-5 mt-[30px] xl:flex xl:flex-row">
         <a
           href="https://github.com/jefolidev"
           target="_blank"
