@@ -9,7 +9,7 @@ import Welcome from './pages/welcome-page/MainPage'
 const Home = () => {
   return (
     <GitProvider>
-      <div className=" flex flex-col gap-36 overflow-x-hidden">
+      <div className=" flex flex-col gap-36 overflow-hidden ">
         <Welcome />
         <AboutMe />
         <Experience />

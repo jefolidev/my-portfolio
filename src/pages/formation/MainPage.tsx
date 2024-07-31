@@ -11,7 +11,7 @@ const MainPage = () => {
         classNameFront="
         text-5xl left-[50px]
         lg:text-7xl lg:left-[560px] lg:bottom-[5px]
-        xl:left-[630px] xl:bottom-[15px] "
+        xl:left-[530px] xl:bottom-[8px] "
       >
         ACADÊMICO
       </Title>
