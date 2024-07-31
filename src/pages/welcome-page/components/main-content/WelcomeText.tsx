@@ -1,7 +1,16 @@
 import MainButton from '../../../../components/MainButton'
 import SecondButton from '../../../../components/SecondButton'
+import curriculo from '../../assets/curriculo.pdf'
 
 const WelcomeText = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a')
+    link.href = curriculo
+    link.setAttribute('download', 'Curriculo de Jeferson Franco.pdf') // Você pode definir o nome do arquivo aqui
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
   return (
     <div className="flex flex-col justify-center xl:mr-[20px]">
       <div className="bg-neutral-950/90 w-full h-8 rounded-t-xl flex gap-2 justify-end items-center p-2  ">
@@ -40,7 +49,8 @@ const WelcomeText = () => {
         >
           <MainButton> GitHub </MainButton>
         </a>
-        <SecondButton> Baixar CV </SecondButton>
+
+        <SecondButton onClick={handleDownload}> Baixar CV </SecondButton>
       </div>
     </div>
   )
