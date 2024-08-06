@@ -18,7 +18,7 @@
 
 ## 🎈 Link
 
-<a href="https://"> Ir para o site </a>
+<a href="https://jefolidev.github.io/my-portfolio/"> Ir para o site </a>
 
 ## 👨‍💻 Tecnologias utilizadas
 
